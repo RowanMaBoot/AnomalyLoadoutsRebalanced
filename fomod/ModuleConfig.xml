@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
+  <moduleName>RowansRebalancedSquadLoadoutsReloaded</moduleName>
+  <installSteps order="Explicit">
+    <installStep name="RowansRebalancedSquadLoadouts">
+      <optionalFileGroups order="Explicit">
+        <group name="Readme" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Readme">
+              <description>Please note that the default balance is to reflect a tit-for-tat balance, best suited for Warfare. If you are a story or freeplay player, you may want to use the optional modules to maintain a closer-to-vanilla balance (where some factions are outright stronger in online combat, regardless of rank). The optional modules are not recommended for Warfare.</description>
+              <conditionFlags>
+                <flag name="Main Mod">On</flag>
+              </conditionFlags>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Main Addon Installation" type="SelectExactlyOne">
+          <plugins order="Explicit">
+            <plugin name="Rebalanced NPC Loadouts - Normal ">
+              <description>Main Module. Covers all factions.</description>
+              <conditionFlags>
+                <flag name="Main Mod">On</flag>
+              </conditionFlags>
+              <files>
+                <folder source="00. Main\gamedata" destination="gamedata" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="BaS Support" type="SelectAtMostOne">
+          <plugins order="Explicit">
+            <plugin name="BaS Support / Patch (WIP)">
+              <description>Adds BaS weapons to the various NPC loadouts.</description>
+              <files>
+                <folder source="01. BaS Support\gamedata" destination="gamedata" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Army Loadout Tweaks" type="SelectAtMostOne">
+          <plugins order="Explicit">
+            <plugin name="Improved Army NPC Loadouts">
+              <description>Gives  Army NPCs somewhat loadouts, with access to old AK74us &#38; no more access to surplus SVT &#38; SKS weapons, and better from Novice and up. End result is in making even novices a considerable threat in online combat. Does not affect offline combat.</description>
+              <files>
+                <folder source="02. Advanced Army\gamedata" destination="gamedata" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+            <plugin name="Advanced Army Loadouts">
+              <description>Gives Army NPCs even stronger loadouts, with access to AK74s and better from Novice and up, making them a serious threat in online combat. Does not affect offline combat.</description>
+              <files>
+                <folder source="02. Improved Army\gamedata" destination="gamedata" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="BaS Support for Other Settings" type="SelectAtMostOne">
+          <plugins order="Explicit">
+            <plugin name="BaS Support - Advanced Army Loadouts">
+              <description>Use this for more advanced BaS weapon distribution (in line with the 'Advanced Army' loadouts).</description>
+              <files>
+                <folder source="03. BaS Support - Advanced Army Loadouts\gamedata" destination="gamedata" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Monolith Loadout Tweaks" type="SelectAtMostOne">
+          <plugins order="Explicit">
+            <plugin name="Advanced Monolith Loadouts">
+              <description>Makes Monolith considerably more challenging in online combat - Monolith have access to a wider variety of weapons, including higher tier firearms, throughout all tiers. No surplus firearms, and even novices are reasonably well equipped. None shall reach the heart of the zone.</description>
+              <files>
+                <folder source="04. Advanced Monolith\gamedata" destination="gamedata" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Merc Loadout Tweaks" type="SelectAtMostOne">
+          <plugins order="Explicit">
+            <plugin name="Advanced Merc Loadouts">
+              <description>Makes Mercs considerably more challenging in online combat - Mercs have access to a wider variety of weapons, including higher tier firearms, throughout all tiers. No surplus firearms, and even novices are reasonably well equipped.</description>
+              <files>
+                <folder source="05. Advanced Mercs\gamedata" destination="gamedata" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+        <group name="Ecologist Loadout Tweaks" type="SelectAtMostOne">
+          <plugins order="Explicit">
+            <plugin name="Advanced Ecologist Loadouts">
+              <description>Makes Ecologists considerably more challenging in online combat - Ecologists have access to a wider variety of weapons, including higher tier firearms, throughout all tiers. No surplus firearms, and even novices are reasonably well equipped.</description>
+              <files>
+                <folder source="06. Advanced Ecologists\gamedata" destination="gamedata" priority="0" />
+              </files>
+              <typeDescriptor>
+                <type name="Optional"/>
+              </typeDescriptor>
+            </plugin>
+          </plugins>
+        </group>
+      </optionalFileGroups>
+    </installStep>
+  </installSteps>
+</config>

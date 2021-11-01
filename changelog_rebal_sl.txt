@@ -1,0 +1,145 @@
+2.0.1
+- Monolith no longer use or spawn with the K98
+- Monolith no longer use or spawn with the G43
+- Monolith legends are now twice as likely to spawn with Gauss rifles
+- Novice Mercenaries no longer spawn with a pistol or shotgun as a primary, and another as a secondary
+# BaS Support
+- BaS weapons added to sidearm profiles for various factions
+- Expanded Novices across the board to use some of the new firearms (pistols, toz)
+
+2.0.0 (beta)
+- First 'Reloaded' release, an overhaul of how loadouts work in the background.
+~~~ Use of wildcards and subfolders to split up where loadouts are stored, and how they are loaded.
+~~~ A patch can make an edit to a specific rank for a specific faction now, rather than the entire faction at once. BaS patches for example no longer ovewrite
+~~~ BaS patching is now done under modsupport, for example. Work in progress.
+- Complete restructure to make patches and other changes easier, and to avoid conflicts.
+- Advanced Monolith Option during install - makes Monolith stronk.
+- Lots and lots of work went into this restructure. Expect more customisation soon. DLTX support also coming soon - not included for now.
+
+1.3.0
+- Added BaS 'Patch'/ correctly version
+
+1.2.0
+- Added Army Optional "Better Armed Soldiers" addon, which strips Army of surpluse/WW2 firearms (still maintaining Modernised SVT40 and SKS variants, however) and gives novices access to standardised equipment.
+- There is also a "Strong Army NPC Loadouts" optional addon, that buffs Army even more (specifically Novice through to Veteran the most)
+
+Notable changes within both add-ons
+-- Removed Pistols, TOZ, Mosin, SKS, SVT and Kiparis variants from Novice, Trainee, and Experienced ARMY NPCs.
+-- ARMY NPCs can spawn with AK74Us at Novice and Trainee ranks now, with high probability.
+
+- Army Novices use:
+-- MP133, Fort500 Shotguns
+-- Modernized SKS with FMJ, old rounds or a random round type (33% for each)
+-- Bizon with FMJ, or old rounds
+-- Vityaz with FMJ, or old rounds
+-- Old AK74U with FMJ 25% chance, or AK74U with old rounds 75% chance.
+- Army Trainees use:
+-- MP133, Fort500 Shotguns
+-- Modernized SKS with FMJ, random rounds, or a scope
+-- Bizon with FMJ, or old rounds
+-- Vityaz with FMJ, or old rounds
+-- Old AK74U with FMJ 25% chance, Old AK74U with old rounds 25% chance, or a random round type selected with a 50% chance.
+-- AK74U with FMJ 33% chance, AK74U with old rounds 66% chance
+
+Strong is similar to the above, but even better - Novices get access to AK74s, and higher ranks get access to even better fast. Military therefore is stronger yet in online combat.
+
+1.11.0
+
+Changes:
+- Summary - All
+-- Overhauled weapon attachments & ammo dstribution to be less random, but also the selections to be more diverse.
+--- Some loadouts will now feature primarily unmodded weapons, with higher ranks having more than just a silencer or scope attachment.
+--- NPCs tend to use more old ammo now.
+-- Snipers have been added to loadouts for all factions
+-- Increased variety of novice/trainee shotgun loadouts slightly (ammo type, chance of spawning with bm16, toz34, etc).
+-- Increase prevalence of bolt action rifles, semi-automatic rifles and other changes of this nature across all ranks.
+-- Tweaked pistol variety across the board for novice stalkers, resulting in greater distinction across factions.
+-- Added silenced pistols as a possible weapon for novice stalkers.
+-- Removed XM8 due to horrible model.
+
+============================================================
+
+- Added Snipers
+-- Stalkers/Loners have access to the SVD & SVD Custom
+-- Ecologists have access to SIG550 Sniper && L96A1 & L96A1M
+-- Freedom have access to L96A1 & L96A1M
+-- ISG have access to the SIG550 Sniper, G3SG1 && WA2000
+-- Duty have access to SVU && VSSK
+-- Clear Sky have access to SVD && SR25
+-- Army Stalkers have access to SVU && SV98
+-- Bandits have access to SVD
+-- Mercenaries have access to L96A1 && SIG550 Snipers && M98B
+-- Monolith have access to SVD && VSSK
+
+- STALKERS
+-- Higher chance of spawning with Mosin
+-- SKS variants available to higher ranks (up to expert)
+-- No more silenced SMGs or random attachments with Trainee, and Experienced ranks
+-- Pistols: PM, Fort, TT33, CZ52
+
+- Ecologists
+-- Remington700 available through to expert rank.
+-- Novices can now spawn with BM16 variants (sawn-off and full)
+-- AK103, XM8 and FN2000 removed from loadout, replaced with AK101 and AK102 variants (which are available through a number of ranks)
+-- Pistols: HSPA, HSPA Alt, Glock, FNP45
+
+- Freedom
+-- SVT Variants available through to expert rank, with greater attachment variety.
+-- Novices have access to HSPA, Glocks, Colt1911 & PMs
+-- HSPA, HSPA Alt, Colt 1911, Colt 1911 Alt, PM
+
+- ISG
+-- SKS variants available through to expert rank, with greater attachment variety.
+-- Pistols: Beretta, Beretta Alt, Colt 1911 New, Colt 1911 Camo
+
+- Duty
+-- SKS variants available through to expert rank, with greater attachment variety.
+-- Novices can now also spawn with additional PM variations
+-- Novices have more chance of using alternative PM variations & fort
+-- Pistols: PM Custom, Fort, PB, PB Custom, PMM
+-- Legend and Master NPCs have a higher chance of spawning with a Groza, AK12, Duty AEK and the AEK 'CAMO'
+-- AK 101 removed from loadout (556 Export)
+
+- Clear Sky
+-- SKS Variants available through to higher ranks (up to Expert), with attachments.
+-- Doubled the chance of M249 spawning for Master/Legendary stalkers, with a 50% potential for silencer attachment.
+-- Can now spawn with the AK101/102
+-- Removed M4 & LR300, increased avaiability of M16 variants.
+-- HK416 available for more loadouts.
+-- Pistols: HSPA, HSPA Alt, PM, Colt1911
+
+- Army
+-- SKS variants available through to expert rank, with greater attachment variety.
+-- Novice shotgun variety improved.
+-- Tends to have less old ammo now.
+-- AK 101 removed from loadout (556 Export)
+-- Pistols: Fort, GSH18 & MP443
+
+- Bandits
+-- Greater chance of spawning with a K98
+-- Emphasis on SVT over SKS. Greater chance of spawning with an SVT, for example.
+-- Professional, Veteran and Experts can now also spawn with a G43
+-- Pistols: PM, TT33, TT33 Modern, CZ52
+
+- Mercenaries
+-- Remington700 can spawn through to Expert rank
+-- K98 can spawn through to Professional rank
+-- G43 dispersed through to Expert rank
+-- Novice stalkers have access to USP, Walker & Variations, as well as Glocks & SIG pistols.
+-- Pistols: Walther, Walther Custom, Glock, SIG220, USP, USP Match
+
+- Monolith
+-- Greater SVT and SKS variety.
+-- Greater Mosin & K98 variety.
+-- Pistols: PM, TT33, CZ52, MP443
+
+
+1.0.4
+
+- Corrected bad references to wpn_winchester1300
+- Corrected bad references to wpn_oc33s
+- Corrected bad reference to 'pn_lr300' for ecolog_veteran_primary loadout
+- Removed three unedited files:
+	npc_loadouts__name.ltx
+	npc_loadouts__squad.ltx
+	npc_loadouts__visual.ltx
